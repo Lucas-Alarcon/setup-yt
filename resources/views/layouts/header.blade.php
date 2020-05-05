@@ -54,6 +54,7 @@
     <!-- Bootstrap core JavaScript -->
   <script src="{{ URL::asset('jquery/jquery.min.js') }}"></script>
   <script src="{{ URL::asset('bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  @yield('script')
 
 </body>
 </html>
